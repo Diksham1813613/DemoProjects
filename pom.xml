@@ -48,10 +48,17 @@
             <artifactId>google-api-services-gmail</artifactId>
             <version>v1-rev20220404-2.0.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->    <dependency>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+        <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>json-path</artifactId>
         <version>3.2.0</version>
-    </dependency>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
     </dependencies>
 </project>
